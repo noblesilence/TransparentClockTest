@@ -10,6 +10,9 @@
 		DD00889D2582133C00CE4C42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD00889C2582133C00CE4C42 /* AppDelegate.swift */; };
 		DD00889F2582133D00CE4C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD00889E2582133D00CE4C42 /* Assets.xcassets */; };
 		DD0088A22582133D00CE4C42 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD0088A02582133D00CE4C42 /* MainMenu.xib */; };
+		DD0088AB2582147200CE4C42 /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0088AA2582147200CE4C42 /* MyTimer.swift */; };
+		DD0088AE2582171800CE4C42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0088AC2582171800CE4C42 /* ViewController.swift */; };
+		DD0088AF2582171800CE4C42 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD0088AD2582171800CE4C42 /* ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		DD0088A12582133D00CE4C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		DD0088A32582133D00CE4C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD0088A42582133D00CE4C42 /* TransparentClockTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TransparentClockTest.entitlements; sourceTree = "<group>"; };
+		DD0088AA2582147200CE4C42 /* MyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimer.swift; sourceTree = "<group>"; };
+		DD0088AC2582171800CE4C42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD0088AD2582171800CE4C42 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 				DD0088A02582133D00CE4C42 /* MainMenu.xib */,
 				DD0088A32582133D00CE4C42 /* Info.plist */,
 				DD0088A42582133D00CE4C42 /* TransparentClockTest.entitlements */,
+				DD0088AA2582147200CE4C42 /* MyTimer.swift */,
+				DD0088AC2582171800CE4C42 /* ViewController.swift */,
+				DD0088AD2582171800CE4C42 /* ViewController.xib */,
 			);
 			path = TransparentClockTest;
 			sourceTree = "<group>";
@@ -119,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD00889F2582133D00CE4C42 /* Assets.xcassets in Resources */,
+				DD0088AF2582171800CE4C42 /* ViewController.xib in Resources */,
 				DD0088A22582133D00CE4C42 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,7 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD0088AE2582171800CE4C42 /* ViewController.swift in Sources */,
 				DD00889D2582133C00CE4C42 /* AppDelegate.swift in Sources */,
+				DD0088AB2582147200CE4C42 /* MyTimer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

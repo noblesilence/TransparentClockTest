@@ -1,9 +1,6 @@
 //
-//  PPTMacTimer.swift
-//  PPT Mac Timer
-//
-//  Created by Aye Aye Mon on 11/16/20.
-//  Copyright © 2020 LTC Clock. All rights reserved.
+//  MyTimer.swift
+//  MyTimer
 //
 
 import Foundation

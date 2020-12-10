@@ -2,9 +2,6 @@
 //  ViewController.swift
 //  TransparentClockTest
 //
-//  Created by Aye Aye Mon on 12/10/20.
-//  Copyright © 2020 LTC Clock. All rights reserved.
-//
 
 import Cocoa
 
